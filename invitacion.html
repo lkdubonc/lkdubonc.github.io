@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--Autor: Lesly Dubón -->
+<!--Fecha: 11/marzo/2022 -->
+<!--Descripción: invitación a evento -->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>LESLY_DUBON "Proyecto: invitación a un evento"</title>
+    <!--Estilos de la página-->
+    <style>
+        #total {
+            background-color: rgb(214, 235, 255);
+            padding-top: 10px;
+            height: 100%;
+            z-index: 1;
+        }
+
+        #marco_invitacion {
+            z-index: 2;
+            width: 100%;
+        }
+
+        #titulo {
+            color: rgb(0, 68, 120);
+            font-size: 2.5em;
+            font-family: "monotype corsiva", serif;
+            text-align: center;
+            z-index: 3;
+        }
+
+        #detalles {
+            position: absolute;
+            top: 100px;
+            font-family: "Garamond", serif;
+            margin-left: 65px;
+            margin-right: 65px;
+            font-weight: bold;
+            z-index: 4;
+        }
+
+        #titulo_detalles {
+            text-align: center;
+            margin-top: 20%;
+        }
+
+        #taza {
+            width: 30%;
+            float: right;
+        }
+
+        .boton {
+            font-family: "Garamond", serif;
+            float: left;
+            margin: 10%;
+            background: rgb(0, 68, 120);
+            color: rgb(255, 255, 255);
+            padding: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<!--Comienza cuerpo de la página web-->
+
+<body>
+    <div id="total">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Art_Nouveau_frame.svg" id="marco_invitacion">
+
+        <!--Comienza sección con detalles-->
+        <div id="detalles">
+            <h1 id="titulo">¡Te invito a tomar un café conmigo!</h1>
+            <p id="titulo_detalles">Detalles:</p>
+            <ul>
+                <li>Fecha: 18/marzo/2022</li>
+                <li>Hora: 6:00 pm</li>
+                <li>Lugar: Café Barista, San Lucas Sacatepéquez</li>
+            </ul>
+            <button type="button" class="boton">CONFIRMAR ASISTENCIA</button>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Vector_cup_of_coffee.svg/2188px-Vector_cup_of_coffee.svg.png"
+                id="taza">
+        </div>
+
+    </div>
+
+</body>
+
+</html>
