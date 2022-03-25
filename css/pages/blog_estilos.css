@@ -6,6 +6,10 @@ html{
     font-family: 'Lato', sans-serif;
 }
 
+body {
+    background: rgb(227, 243, 255);
+}
+
 /************MEDIA QUERIES**************/
 
 /* TAMAÑO DE LA BARRA SEGÚN ANCHO DE PANTALLA */
@@ -40,6 +44,13 @@ html{
         text-align: center;
     }
 
+    .listado_contenido{
+        list-style-type:none;
+        padding-left:0.2em;
+        padding-right: 0.2em;
+    }
+
+
 }
 
 @media (min-width: 780px) {
@@ -66,38 +77,57 @@ html{
     padding-left: 1em;
 }
 
-body {
-    font-family: "Verdana", sans-serif;
-    background: rgb(227, 243, 255);
+/* Descripcion */
+.informacion{
+    text-align: center;
 }
 
-
-h1 {
+.informacion__titulo {
     font-family: "Courier New", monospace;
-    text-align: center;
     font-size: 2.25em;
     color: rgb(0, 150, 145);
 }
 
-h2 {
+/* Seccion */
+.seccion{
+    margin: 1em;
+}
+
+.contenido__titulo {
 
     color: rgb(48, 77, 112);
     font-size: 1.25em;
 }
 
-h3 {
+/* Contenido */
+.referencia {
+    line-height: 1.5em;
+}
+
+/* Entradas */
+.entradas{
+    column-gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0em,40em));
+    justify-content: center;
+}
+
+.titulo {
     color: rgb(255, 255, 255);
     background: rgb(48, 77, 112);
     font-size: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 0.0007em;
+    padding-bottom: 0.0007em;
 }
 
-h6 {
-    font-size: 0.78em;
+.entrada__contenido{
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.entrada__fecha {
     font-style: italic;
 }
 
-.entrada {
-    font-weight: bold;
-    line-height: 1.5em;
-    font-family: sans-serif;
-}

@@ -22,54 +22,102 @@
     <iframe src="lateral.html" frameborder="0" class="lateral"></iframe>
 
     <div class="contenedor">
-        <!--Título con logo-->
-        <h1>
-            BLOG DE LESLY
-            <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/space/rocketship.png"
-                height="70">
-        </h1>
 
-        <!--Tabla de contenido-->
-        <h2>CONTENIDO</h2>
-        <ul>
-            <li> <a href="#post-1" class="entrada">
-                    Primera entrada
-                </a></li>
-            <li> <a href="#post-2" class="entrada">
-                    Segunda entrada
-                </a></li>
-            <li> <a href="#post-3" class="entrada">
-                    Tercera entrada
-                </a></li>
-        </ul>
+        <section class="informacion">
+            <!--Título con logo-->
+            <h1 class="informacion__titulo">
+                BLOG DE LESLY
+            </h1>
+        </section>
 
-        <!--Empiezan las entradas con su fecha correspondiente-->
-        <h3 id="post-1">PRIMERA ENTRADA</h3>
-        <h6>2 de marzo de 2022</h6>
+        <section class="contenido">
 
-        <p>Hoy empecé a usar Khan Academy. No lo había usado antes. Comencé con un curso introductorio de algoritmos. La
-            mayoría lo había aprendido de mis primeros años en la universidad, pero me ayudó a refrescar algunos
-            conceptos y
-            a darme cuenta de cuánto he aprendido desde entonces.</p>
+            <div class="seccion">
 
-        <h3 id="post-2">SEGUNDA ENTRADA</h3>
-        <h6>4 de marzo de 2022</h6>
+                <!--Tabla de contenido-->
+                <h2 class="contenido__titulo">CONTENIDO</h2>
+                <ul class="listado_contenido">
+                    <li class="referencia"> <a href="#post-1">
+                            Primera entrada
+                        </a></li>
+                    <li class="referencia"> <a href="#post-2">
+                            Segunda entrada
+                        </a></li>
+                    <li class="referencia"> <a href="#post-3">
+                            Tercera entrada
+                        </a></li>
+                </ul>
+            </div>
+            <div class="seccion">
+                <!--Empiezan las entradas con su fecha correspondiente-->
 
-        <p>Hoy finalicé mi curso de introducción a la programación. Hace tiempo que no usaba pseudocódigo, por lo que me
-            ayudó a recordarme cómo usarlo y practicar mi lógica con los exámenes, especialmente en lo concerniente a
-            ciclos.
-        </p>
+                <div class="entradas">
+                    <article class="entrada">
+                        <div class="titulo">
+                            <h3 id="post-1">PRIMERA ENTRADA</h3>
+                        </div>
+                        <div class="entrada__contenido">
+                            <p class="entrada__fecha">2 de marzo de 2022</p>
 
+                            <p>Hoy empecé a usar Khan Academy. No lo había usado antes. Comencé con un curso
+                                introductorio
+                                de
+                                algoritmos. La
+                                mayoría lo había aprendido de mis primeros años en la universidad, pero me ayudó a
+                                refrescar
+                                algunos
+                                conceptos y
+                                a darme cuenta de cuánto he aprendido desde entonces.</p>
+                        </div>
+                    </article>
 
-        <h3 id="post-3">TERCERA ENTRADA</h3>
-        <h6>9 de marzo de 2022</h6>
+                    <article class="entrada">
+                        <div class="titulo">
+                            <h3 id="post-2">SEGUNDA ENTRADA</h3>
+                        </div>
 
-        <p>Hoy empecé con este curso de html. En la universidad no tuve la oportunidad de practicar mucho con html y
-            css,
-            por lo que me gusta estar aprendiendo ahorita. Estoy consciente de que mis páginas no son muy bonitas
-            todavía,
-            pero estoy mejorando de a poco.
-        </p>
+                        <div class="entrada__contenido">
+                            <p class="entrada__fecha">4 de marzo de 2022</p>
+
+                            <p>Hoy finalicé mi curso de introducción a la programación. Hace tiempo que no usaba
+                                pseudocódigo,
+                                por
+                                lo
+                                que me
+                                ayudó a recordarme cómo usarlo y practicar mi lógica con los exámenes, especialmente en
+                                lo
+                                concerniente
+                                a
+                                ciclos.
+                            </p>
+                        </div>
+
+                    </article>
+                    <article class="entrada">
+                        <div class="titulo">
+                            <h3 id="post-3">TERCERA ENTRADA</h3>
+                        </div>
+
+                        <div class="entrada__contenido">
+                            <p class="entrada__fecha">9 de marzo de 2022</p>
+
+                            <p>Hoy empecé con este curso de html. En la universidad no tuve la oportunidad de practicar
+                                mucho
+                                con
+                                html y
+                                css,
+                                por lo que me gusta estar aprendiendo ahorita. Estoy consciente de que mis páginas no
+                                son
+                                muy
+                                bonitas
+                                todavía,
+                                pero estoy mejorando de a poco.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
 

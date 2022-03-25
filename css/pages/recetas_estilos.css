@@ -101,6 +101,11 @@ body {
     color: rgb(94, 50, 0);
 }
 
+/* Contenido */
+.referencia {
+    line-height: 1.5em;
+}
+
 /* Recetas */
 .receta__foto{
     width:100%;
