@@ -11,6 +11,10 @@ body {
     
 }
 
+/************MEDIA QUERIES**************/
+
+/* TAMAÑO DE LA BARRA SEGÚN ANCHO DE PANTALLA */
+
 @media screen and (max-width: 300px) {
     .lateral{
         width:100%;
@@ -27,26 +31,28 @@ body {
     
 }
 
+/* PROPIEDADES DE CONTENIDO SEGÚN ANCHO DE PANTALLA */
+
 @media screen and (max-width: 780px) {
 
-
+    /* Contenedor sin barra */
     .contenedor{
-
-        padding-right: 1em;
-        padding-left: 1em;
         width: 100%;
     }
 
+    /* Seccion */
     .seccion{
         text-align: center;
     }
 
+    /* Listados */
     .listado_actividades, .listado_comidas{
         list-style-type:none;
         padding-left:0.2em;
         padding-right: 0.2em;
     }
 
+    /* Foto comida */
     .comida__foto{
         width: 100%;
         max-width: 13em;
@@ -55,24 +61,27 @@ body {
 }
 
 @media (min-width: 780px) {
+
+    /* Posicion para barra lateral */
     .lateral{
         position: fixed;
         width:20%;
         height: 100%;
     }
 
+    /* Contenedor sin barra */
     .contenedor{
         float: right;
         margin: 0.5em;
-        padding-right: 1em;
-        padding-left: 1em;
         width: 80%;
     }
 
+    /* Listados */
     .listado_actividades{
         padding-right:0.1em;
     }
 
+    /* Foto comida */
     .comida__foto{
         float:right;
         width: 13em;
@@ -81,22 +90,20 @@ body {
     
 }
 
+/* Contenedor sin barra */
+.contenedor{
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+/* Columnas para las dos últimas secciones */
 .columnas{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0,30em));
     justify-content: center;
 }
 
-.descripcion__foto{
-    width: 100%;
-    max-width: 18em;
-}
-
-.lugar__foto{
-    width:100%;
-    max-width: 15em;
-}
-
+/* Descripcion */
 .informacion{
     text-align: center;
 }
@@ -105,31 +112,26 @@ body {
     color: #7C7171;
 }
 
+.descripcion__foto{
+    width: 100%;
+    max-width: 18em;
+}
+
+/* Seccion */
 .seccion{
     margin: 1em;
 }
 
-.actividad {
-    color: #EC4D68;
-    font-weight: bold;
-}
-
-.lugar__titulo {
-    background: #7C7171;
-    color: rgb(255, 255, 255);
-}
-
 .titulo {
     background:#DB929E;
+    color: #fff;
     padding-right: 1em;
     padding-left: 1em;
     padding-top: 0.0007em;
     padding-bottom: 0.0007em;
 }
 
-h2{
-    color: rgb(255, 255, 255);
-}
+/* Lugares */
 
 .lugares{
     padding: 1em;
@@ -139,10 +141,22 @@ h2{
 }
 
 .lugar{
-    
     padding: 1em;
-
     text-align: center;
 }
 
+.lugar__titulo {
+    background: #7C7171;
+    color: rgb(255, 255, 255);
+}
 
+.lugar__foto{
+    width:100%;
+    max-width: 15em;
+}
+
+/* Actividades */
+.actividad {
+    color: #EC4D68;
+    font-weight: bold;
+}
