@@ -1,3 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+/************MEDIA QUERIES**************/
+
+/* TAMAÑO DE LA BARRA SEGÚN ANCHO DE PANTALLA */
+
+@media screen and (max-width: 300px) {
+    .lateral{
+        width:100%;
+        height: 25em;
+    }
+    
+}
+
+@media screen and (min-width: 301px) and (max-width: 780px) {
+    .lateral{
+        width:100%;
+        height: 20em;
+    }
+    
+}
+
+/* PROPIEDADES DE CONTENIDO SEGÚN ANCHO DE PANTALLA */
+
+@media screen and (max-width: 780px) {
+
+    /* Contenedor sin barra */
+    .contenedor{
+        width: 100%;
+    }
+
+    /* Seccion */
+    .seccion{
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 780px) {
+
+    /* Posicion para barra lateral */
+    .lateral{
+        position: fixed;
+        width:20%;
+        height: 100%;
+    }
+
+    /* Contenedor sin barra */
+    .contenedor{
+        float: right;
+        margin: 0.5em;
+        width: 80%;
+    }  
+    
+}
+
+/* Contenedor sin barra */
+.contenedor{
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
 body {
     font-family: "Verdana", sans-serif;
     background: rgb(227, 243, 255);
