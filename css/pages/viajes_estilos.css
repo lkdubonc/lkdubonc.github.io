@@ -81,6 +81,12 @@ body {
     
 }
 
+.columnas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0,30em));
+    justify-content: center;
+}
+
 .descripcion__foto{
     width: 100%;
     max-width: 18em;
@@ -88,16 +94,12 @@ body {
 
 .lugar__foto{
     width:100%;
-    max-width: 13em;
+    max-width: 15em;
 }
 
 .informacion{
     text-align: center;
 }
-
-
-
-
 
 #descripcion {
     color: #7C7171;
@@ -131,6 +133,9 @@ h2{
 
 .lugares{
     padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0em,15em));
+    justify-content: center;
 }
 
 .lugar{
