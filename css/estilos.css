@@ -23,7 +23,7 @@ html{
     height: 50px;
     overflow: hidden;
     margin: 0;
-    width: 50px;
+    width: 15%;
 }
 
 .perfil__foto{
@@ -34,7 +34,7 @@ html{
     color: #fff;
     font-size: 20px;
     margin-left: 0.5em;
-    width: 250px;
+    width: 70%;
 }
 
 .perfil__nombres, .perfil__circulo{
@@ -46,7 +46,7 @@ html{
 .informacion{
     color:#0F6A62;
     position: absolute;
-    bottom: 1em;
+    bottom: 2em;
 }
 
 .informacion__titulo{
