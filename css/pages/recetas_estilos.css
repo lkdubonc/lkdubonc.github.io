@@ -6,6 +6,10 @@ html{
     font-family: 'Lato', sans-serif;
 }
 
+body {
+    background: rgb(237, 216, 192);
+}
+
 /************MEDIA QUERIES**************/
 
 /* TAMAÑO DE LA BARRA SEGÚN ANCHO DE PANTALLA */
@@ -40,6 +44,18 @@ html{
         text-align: center;
     }
 
+    .listado_contenido,.listado_detalles{
+        list-style-type:none;
+        padding-left:0.2em;
+        padding-right: 0.2em;
+    }
+
+    .receta__foto{
+        width:100%;
+        max-width: 20em;
+        padding-top: 1em;
+    }
+
 }
 
 @media (min-width: 780px) {
@@ -66,24 +82,65 @@ html{
     padding-left: 1em;
 }
 
-body {
-    background: rgb(237, 216, 192);
+/* Descripcion */
+.informacion{
+    text-align: center;
 }
 
-h1 {
+.informacion__titulo {
     background: rgb(94, 50, 0);
     color: rgb(255, 255, 255);
 }
 
-h2 {
+/* Seccion */
+.seccion{
+    margin: 1em;
+}
+
+.titulo {
     color: rgb(94, 50, 0);
 }
 
-table,
+/* Recetas */
+.receta__foto{
+    width:100%;
+    max-width: 20em;
+    padding-top: 1em;
+}
+
+/* Columnas para las detalles y tabla */
+.columnas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0,25em));
+    justify-content: center;
+    justify-items: center;
+}
+
+.receta__tabla,
 th,
 td {
+    border: 1px solid rgb(94, 50, 0);
+}
+
+.tabla--encabezado{
     background-color: rgb(94, 50, 0);
     color: rgb(237, 216, 192);
+}
+
+.tabla--cuerpo{
+    color:rgb(94, 50, 0);
+}
+
+td{
+    padding: 0.5em;
+}
+
+/* Pasos */
+.pasos{
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 0.0007em;
+    padding-bottom: 0.0007em;
 }
 
 .paso {
