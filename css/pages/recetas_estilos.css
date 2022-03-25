@@ -1,0 +1,23 @@
+body {
+    background: rgb(237, 216, 192);
+}
+
+h1 {
+    background: rgb(94, 50, 0);
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: rgb(94, 50, 0);
+}
+
+table,
+th,
+td {
+    background-color: rgb(94, 50, 0);
+    color: rgb(237, 216, 192);
+}
+
+.paso {
+    color: rgb(94, 50, 0);
+}

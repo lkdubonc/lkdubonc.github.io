@@ -1,0 +1,35 @@
+body {
+    font-family: "Verdana", sans-serif;
+    background: rgb(227, 243, 255);
+}
+
+
+h1 {
+    font-family: "Courier New", monospace;
+    text-align: center;
+    font-size: 2.25em;
+    color: rgb(0, 150, 145);
+}
+
+h2 {
+
+    color: rgb(48, 77, 112);
+    font-size: 1.25em;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    background: rgb(48, 77, 112);
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 0.78em;
+    font-style: italic;
+}
+
+.entrada {
+    font-weight: bold;
+    line-height: 1.5em;
+    font-family: sans-serif;
+}
