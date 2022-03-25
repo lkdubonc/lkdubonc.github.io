@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #E4C7CC;
+    margin: 0.5em;
+}
+
+.informacion{
+    text-align: center;
+}
+
+.descripcion__foto{
+    width:18em;
+}
+
+.comida__foto{
+    width: 13em;
+}
+
+#descripcion {
+    color: #7C7171;
+}
+
+.seccion{
+    margin: 1em;
+    padding-left:0.5em;
+    padding-right: 0.5em;
+}
+
+.actividad {
+    color: #EC4D68;
+    font-weight: bold;
+}
+
+.lugar__titulo {
+    background: #7C7171;
+    color: rgb(255, 255, 255);
+}
+
+.titulo {
+    background:#DB929E;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 0.0007em;
+    padding-bottom: 0.0007em;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+}
+
+.lugares{
+    padding: 1em;
+}
+
+.lugar{
+    
+    padding: 1em;
+
+    text-align: center;
+}
+
+.comida__foto{
+    float:right;
+}
+
+.listado_actividades{
+    padding-right:0.1em;
+}
+
