@@ -50,7 +50,6 @@ body {
         padding-right: 0.2em;
     }
 
-
 }
 
 @media (min-width: 780px) {
@@ -68,6 +67,14 @@ body {
         margin: 0.5em;
         width: 80%;
     }  
+
+    /* Entradas */
+    .entradas{
+        column-gap: 1%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(0em,49%));
+        justify-content: center;
+    }
     
 }
 
@@ -106,10 +113,7 @@ body {
 
 /* Entradas */
 .entradas{
-    column-gap: 1em;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(0em,40em));
-    justify-content: center;
+    text-align: center;
 }
 
 .titulo {
