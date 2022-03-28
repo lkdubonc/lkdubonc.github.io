@@ -50,6 +50,11 @@ body {
         padding-right: 0.2em;
     }
 
+    /* Contenido */
+    .referencia {
+        line-height: 2.5em;
+    }
+
 }
 
 @media (min-width: 780px) {
@@ -74,6 +79,11 @@ body {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(0em,49%));
         justify-content: center;
+    }
+
+    /* Contenido */
+    .referencia {
+        line-height: 1.5em;
     }
     
 }
@@ -104,11 +114,6 @@ body {
 
     color: rgb(48, 77, 112);
     font-size: 1.25em;
-}
-
-/* Contenido */
-.referencia {
-    line-height: 1.5em;
 }
 
 /* Entradas */
