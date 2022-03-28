@@ -86,21 +86,23 @@ body {
         float:right;
         width: 13em;
     }  
-    
-    
+
+}
+
+@media (min-width:840px){
+    /* Columnas para las dos últimas secciones */
+    .columnas{
+        display: grid;
+        column-gap: 1%;
+        grid-template-columns: repeat(auto-fit, minmax(0,49%));
+        justify-content: center;
+    }
 }
 
 /* Contenedor sin barra */
 .contenedor{
     padding-right: 1em;
     padding-left: 1em;
-}
-
-/* Columnas para las dos últimas secciones */
-.columnas{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(0,30em));
-    justify-content: center;
 }
 
 /* Descripcion */
