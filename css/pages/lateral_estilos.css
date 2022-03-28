@@ -9,7 +9,7 @@ html{
 /*MEDIA QUERIES PARA EL ALINEAMIENTO DEL TEXTO EN LA BARRA
 Y POSICION DE LA INFORMACION*/
 
-@media screen and (max-width: 350px) and (min-height: 400px) {
+@media screen and (max-width: 350px) and (min-height: 401px) {
     .informacion{
         position: absolute;
         bottom: 2em;

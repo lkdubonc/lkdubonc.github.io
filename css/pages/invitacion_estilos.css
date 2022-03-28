@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(214, 235, 255);
+}
+
 /************MEDIA QUERIES**************/
 
 /* TAMAÑO DE LA BARRA SEGÚN ANCHO DE PANTALLA */
@@ -9,9 +13,8 @@
 @media screen and (max-width: 300px) {
     .lateral{
         width:100%;
-        height: 25em;
+        height: 22em;
     }
-    
 }
 
 @media screen and (min-width: 301px) and (max-width: 780px) {
@@ -36,6 +39,15 @@
         text-align: center;
     }
 
+    #taza {
+        height: 3em;
+    } 
+    
+    .contenedor{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
 }
 
 @media (min-width: 780px) {
@@ -53,6 +65,13 @@
         margin: 0.5em;
         width: 80%;
     }  
+
+    
+    #taza {
+        width: 30%;
+        max-width: 10em;
+    }  
+    
     
 }
 
@@ -60,54 +79,50 @@
 .contenedor{
     padding-right: 1em;
     padding-left: 1em;
+    text-align: center; 
 }
 
-#total {
-    background-color: rgb(214, 235, 255);
-    padding-top: 10px;
-    height: 100%;
-    z-index: 1;
+/* Invitacion */
+.invitacion{
+    border-style: double;
+    border-width: 1em;
+    padding: 2em;
+    width: fit-content;
+    margin: auto;
 }
 
-#marco_invitacion {
-    z-index: 2;
-    width: 100%;
-}
-
+/* Titulo */
 #titulo {
     color: rgb(0, 68, 120);
-    font-size: 2.5em;
     font-family: "monotype corsiva", serif;
-    text-align: center;
-    z-index: 3;
 }
 
-#detalles {
-    position: absolute;
-    top: 100px;
+/* Contenido */
+.contenido {
+    text-align: center;
+    align-items: center;
     font-family: "Garamond", serif;
-    margin-left: 65px;
-    margin-right: 65px;
     font-weight: bold;
-    z-index: 4;
+    line-height: 1.5em;
+    column-gap: 1em;    
 }
 
-#titulo_detalles {
-    text-align: center;
-    margin-top: 20%;
+/* Detalles */
+.listado_detalles{
+    list-style-type:none;
+    padding-left:0.2em;
+    padding-right: 0.2em;
 }
 
-#taza {
-    width: 30%;
-    float: right;
-}
-
+/* Botón */
 .boton {
     font-family: "Garamond", serif;
-    float: left;
-    margin: 10%;
     background: rgb(0, 68, 120);
     color: rgb(255, 255, 255);
     padding: 5px;
     font-weight: bold;
+    margin: 1em;
 }
+
+
+
