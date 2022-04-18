@@ -78,8 +78,6 @@ function leerDatosCurso(cursoSeleccionado) {
         articulosCarrito = [...articulosCarrito, infoCurso];
     }
 
-
-
     console.log(articulosCarrito);
 
     carritoHTML();

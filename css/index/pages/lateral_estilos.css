@@ -1,8 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-html{
+html {
     font-family: 'Lato', sans-serif;
 }
 
@@ -10,7 +10,7 @@ html{
 Y POSICION DE LA INFORMACION*/
 
 @media screen and (max-width: 350px) and (min-height: 571px) {
-    .informacion{
+    .informacion {
         position: absolute;
         bottom: 2em;
     }
@@ -51,22 +51,22 @@ Y POSICION DE LA INFORMACION*/
 
 /* Información */
 
-.informacion{
-    color:#0F6A62;
+.informacion {
+    color: #0F6A62;
     padding-right: 0.5em;
 }
 
-.informacion__titulo{
+.informacion__titulo {
     font-size: 1.125em;
 }
 
 /* Habilidad */
 
-.habilidades{
+.habilidades {
     padding: 0;
 }
 
-.habilidad{
+.habilidad {
     background-color: #0F6A62;
     color: #fff;
     display: inline-block;
@@ -78,7 +78,7 @@ Y POSICION DE LA INFORMACION*/
 
 /* Perfil */
 
-.perfil__circulo{
+.perfil__circulo {
     border-radius: 50%;
     height: 3.25em;
     overflow: hidden;
@@ -86,19 +86,19 @@ Y POSICION DE LA INFORMACION*/
     width: 3.25em;
 }
 
-.perfil__foto{
-    width:100%;
+.perfil__foto {
+    width: 100%;
 }
 
-.perfil__nombres{
+.perfil__nombres {
     color: #fff;
     font-size: 1.25em;
     margin-left: 0.5em;
     width: 60%;
 }
 
-.perfil__nombres, .perfil__circulo{
+.perfil__nombres,
+.perfil__circulo {
     display: inline-block;
     vertical-align: middle;
 }
-
