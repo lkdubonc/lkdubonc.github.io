@@ -18,6 +18,7 @@ function cargarEventListeners() {
     document.addEventListener("DOMContentLoaded", () => {
         articulosCarrito = JSON.parse(localStorage.getItem("carrito")) || [];
         carritoHTML();
+        console.log(articulosCarrito);
     })
 
     //Vaciar el carrito
