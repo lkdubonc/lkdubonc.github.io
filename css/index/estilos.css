@@ -89,7 +89,7 @@ html {
 .proyectos {
     padding: 1em;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(0, 40em));
+    grid-template-columns: repeat(auto-fit, minmax(0, 35em));
     justify-content: center;
 }
 
