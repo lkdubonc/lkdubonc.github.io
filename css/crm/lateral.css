@@ -1,0 +1,58 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Información */
+
+.informacion {
+    color: #0F6A62;
+    padding-right: 0.5em;
+}
+
+.informacion__titulo {
+    font-size: 1.125em;
+}
+
+/* Habilidad */
+
+.habilidades {
+    padding: 0;
+}
+
+.habilidad {
+    background-color: #0F6A62;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+}
+
+/* Perfil */
+
+.perfil__circulo {
+    border-radius: 50%;
+    height: 3.25em;
+    overflow: hidden;
+    margin: 0;
+    width: 3.25em;
+}
+
+.perfil__foto {
+    width: 100%;
+}
+
+.perfil__nombres {
+    color: #fff;
+    font-size: 1.25em;
+    margin-left: 0.5em;
+    width: 60%;
+}
+
+.perfil__nombres,
+.perfil__circulo {
+    display: inline-block;
+    vertical-align: middle;
+}
