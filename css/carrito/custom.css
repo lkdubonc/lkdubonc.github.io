@@ -1,5 +1,7 @@
 html {
     font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+
 }
 
 body {
@@ -116,15 +118,15 @@ ul {
 
 .barra {
     padding: 20px 0;
-    background: #741d51;
+    background: #0047AB;
     /* Old browsers */
-    background: -moz-linear-gradient(left, #741d51 0%, #e44e52 100%);
+    background: -moz-linear-gradient(left, #0047AB 0%, #ADD8E6 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #741d51 0%, #e44e52 100%);
+    background: -webkit-linear-gradient(left, #0047AB 0%, #ADD8E6 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #741d51 0%, #e44e52 100%);
+    background: linear-gradient(to right, #0047AB 0%, #ADD8E6 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#741d51', endColorstr='#e44e52', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0047AB', endColorstr='#ADD8E6', GradientType=1);
     /* IE6-9 */
 }
 
