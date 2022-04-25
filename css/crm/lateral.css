@@ -1,17 +1,23 @@
 html {
     font-family: 'Lato', sans-serif;
+    line-height: normal;
+}
+
+h1{
+    font-weight: bold;
 }
 
 
 /* Información */
 
 .informacion {
-    color: #0F6A62;
+    color: #fff;
     padding-right: 0.5em;
 }
 
 .informacion__titulo {
     font-size: 1.125em;
+    font-weight: bold;
 }
 
 /* Habilidad */
@@ -21,7 +27,7 @@ html {
 }
 
 .habilidad {
-    background-color: #0F6A62;
+    background-color: #336C99;
     color: #fff;
     display: inline-block;
     font-size: 0.75em;
