@@ -40,7 +40,7 @@ Y POSICION DE LA INFORMACION*/
 /* Barra lateral */
 
 .lateral {
-    background-color: #56B3AB;
+    background-color: #025D8C;
     bottom: 0;
     left: 0;
     padding: 1em;
@@ -52,7 +52,7 @@ Y POSICION DE LA INFORMACION*/
 /* Información */
 
 .informacion {
-    color: #0F6A62;
+    color: #fff;
     padding-right: 0.5em;
 }
 
@@ -67,7 +67,7 @@ Y POSICION DE LA INFORMACION*/
 }
 
 .habilidad {
-    background-color: #0F6A62;
+    background-color: #336C99;
     color: #fff;
     display: inline-block;
     font-size: 0.75em;

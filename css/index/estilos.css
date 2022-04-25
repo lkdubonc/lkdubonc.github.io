@@ -6,6 +6,10 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
+body{
+    background-color: #B3CFE6;
+}
+
 /************MEDIA QUERIES**************/
 
 /* TAMAÑO DE LA BARRA SEGÚN ANCHO DE PANTALLA */
@@ -66,17 +70,8 @@ html {
     padding: 0;
 }
 
-.habilidad {
-    background-color: #0F6A62;
-    color: #fff;
-    display: inline-block;
-    font-size: 0.75em;
-    padding: 0.5em;
-    text-transform: uppercase;
-}
-
 .habilidad--proyecto {
-    background-color: #29597C;
+    background-color: #336C99;
     color: #fff;
     display: inline-block;
     font-size: 0.75em;
@@ -103,10 +98,10 @@ html {
 }
 
 .proyecto__titulo {
-    color: #29597C;
+    color: white;
     font-size: 1.125em;
 }
 
 .proyecto__descripcion {
-    color: #797D7F;
+    color: #2E506B;
 }
