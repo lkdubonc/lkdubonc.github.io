@@ -71,7 +71,14 @@ function leerDatosCurso(cursoSeleccionado) {
         //Actualizamos la cantidad
         const cursos = articulosCarrito.map(curso => {
             if (curso.id === infoCurso.id) {
-                curso.cantidad++;
+
+                const confirmar = confirm('Este curso ya se encuentra en el carrito. ¿Deseas agregarlo nuevamente?');
+                if (confirmar) {
+                    curso.cantidad++;
+
+                    //Se le avisa al usuario que fue agregado
+                    alert("Agregado correctamente");
+                }
                 return curso;
             }
             else {
@@ -83,6 +90,9 @@ function leerDatosCurso(cursoSeleccionado) {
     } else {
         //Agrega elementos al arreglo de carrito
         articulosCarrito = [...articulosCarrito, infoCurso];
+
+        //Se le avisa al usuario que fue agregado
+        alert("Agregado correctamente");
     }
 
     carritoHTML();
