@@ -39,6 +39,7 @@ class UI {
 
         citas.forEach(cita => {
             const {mascota, propietario, telefono, fecha, hora, sintomas, id } = cita;
+            let fechaTransformada = fecha.split('-')[2]+"/"+ fecha.split('-')[1]+"/"+ fecha.split('-')[0] ;
 
             const divCita = document.createElement('div');
             divCita.classList.add('cita', 'p-3');
@@ -56,7 +57,7 @@ class UI {
             telefonoParrafo.innerHTML = `<span class="font-weight-bolder">Teléfono: </span> ${telefono}`;
 
             const fechaParrafo = document.createElement('p');
-            fechaParrafo.innerHTML = `<span class="font-weight-bolder">Fecha: </span> ${fecha}`;
+            fechaParrafo.innerHTML = `<span class="font-weight-bolder">Fecha: </span> ${fechaTransformada}`;
 
             const horaParrafo = document.createElement('p');
             horaParrafo.innerHTML = `<span class="font-weight-bolder">Hora: </span> ${hora}`;
