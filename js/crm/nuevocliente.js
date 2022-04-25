@@ -45,7 +45,7 @@
         objectStore.add(cliente);
 
         transaction.onerror = function () {
-            imprimirAlerta('Hubo un error', 'error');
+            imprimirAlerta('Hubo un error. Verifique que el correo no sea encuentre registrado.', 'error');
         }
 
         transaction.oncomplete = function () {
