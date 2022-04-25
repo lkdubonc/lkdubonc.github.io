@@ -2,11 +2,11 @@ import Citas from './classes/Citas.js';
 import UI from './classes/UI.js';
 import {
     mascotaInput,
-    propietarioInput, 
-    telefonoInput, 
-    fechaInput, 
-    horaInput, 
-    sintomasInput, 
+    propietarioInput,
+    telefonoInput,
+    fechaInput,
+    horaInput,
+    sintomasInput,
     formulario
 } from "./selectores.js";
 
@@ -37,6 +37,10 @@ export function nuevaCita(e) {
     // Validar
     if (mascota === '' || propietario === '' || telefono === '' || fecha === '' || hora === '' || sintomas === '') {
         ui.imprimirAlerta('Todos los campos son obligatorios', 'error')
+
+        return;
+    } else if (telefono <= 0 || isNaN(telefono)) {
+        ui.imprimirAlerta("El teléfono no es válido", 'error');
 
         return;
     }

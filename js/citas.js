@@ -120,7 +120,7 @@ class UI {
 
             if (cursor) {
                 const { mascota, propietario, telefono, fecha, hora, sintomas, id } = cursor.value;
-                let fechaTransformada = fecha.split('-')[2]+"/"+ fecha.split('-')[1]+"/"+ fecha.split('-')[0] ;     
+                let fechaTransformada = fecha.split('-')[2] + "/" + fecha.split('-')[1] + "/" + fecha.split('-')[0];
 
                 const divCita = document.createElement('div');
                 divCita.classList.add('cita', 'p-3');
@@ -206,6 +206,10 @@ function nuevaCita(e) {
     // Validar
     if (mascota === '' || propietario === '' || telefono === '' || fecha === '' || hora === '' || sintomas === '') {
         ui.imprimirAlerta('Todos los campos son obligatorios', 'error')
+
+        return;
+    } else if (telefono <= 0 || isNaN(telefono)) {
+        ui.imprimirAlerta("El teléfono no es válido", 'error');
 
         return;
     }
@@ -294,7 +298,7 @@ function eliminarCita(id) {
     transaction.onerror = () => {
         console.log('Hubo un error');
     }
-    
+
 }
 
 function cargarEdicion(cita) {
