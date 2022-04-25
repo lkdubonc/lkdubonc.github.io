@@ -1,3 +1,20 @@
+body {
+    background: #B3CFE6;
+    background: -webkit-linear-gradient(to right, #025D8C, #B3CFE6);
+    background: linear-gradient(to right, #025D8C, #B3CFE6);
+    margin: 0%;
+    color: white;
+}
+
+.container{
+    background-color: #025D8C;
+    padding: 4rem;
+}
+
+#formulario{
+    color: black;
+}
+
 h1,
 h2 {
     text-align: center;
