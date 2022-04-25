@@ -1,6 +1,6 @@
 body {
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-    font-family: 'Staatliches', cursive;
+    background: linear-gradient(to right, #025D8C, #B3CFE6);
+    font-family: 'Lato', sans-serif;
 }
 
 html {
@@ -8,14 +8,20 @@ html {
 }
 
 h1 {
-    font-family: 'Staatliches', cursive;
-    font-size: 6rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
     padding: 3rem 0;
     margin: 0;
 }
 
+#buscador-titulo {
+    color: #fff;
+}
+
 .container {
     background-color: white;
+    color: #2E506B;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -34,14 +40,13 @@ form {
     margin: 0 auto;
     padding: 4rem;
     background: white;
-    margin-bottom: 10rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 #app p {
     text-align: left !important;
     font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 #resultado p {
