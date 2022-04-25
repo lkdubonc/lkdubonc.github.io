@@ -93,9 +93,9 @@ class UI {
 
    textoHeading(citas) {
         if(citas.length > 0 ) {
-            heading.textContent = 'Administra tus Citas '
+            heading.textContent = 'Administra tus citas '
         } else {
-            heading.textContent = 'No hay Citas, comienza creando una'
+            heading.textContent = 'No hay citas, comienza creando una'
         }
     }
 
