@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: #f5f3f3
+    background-color: #0a193a
 }
 
 h1 {
@@ -47,13 +47,14 @@ ul {
 }
 
 #hero {
-    background-image: url(../../img/carrito/hero.jpg);
-    height: 350px;
+    background-image: url(../../img/carrito/hero1.jpg);
+    height: 250px;
     background-size: cover;
 }
 
 #encabezado {
     margin: 30px 0;
+    color: #fff;
 }
 
 .submenu {
@@ -83,6 +84,11 @@ ul {
     text-align: center;
     border-radius: 10px;
     color: white;
+}
+
+#vaciar-carrito{
+    background-color: #0a193a;
+    color: #fff;
 }
 
 .contenido-hero {
