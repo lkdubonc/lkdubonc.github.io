@@ -29,7 +29,6 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
-      - name: Write File
       # You may pin to the exact commit or the version.
       # uses: DamianReeves/write-file-action@e19fd875ed54f16fc583a3486e62547ce4a5dde8
       - uses: DamianReeves/write-file-action@v1.0
