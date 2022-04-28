@@ -1,3 +1,5 @@
+import OPEN_WEATHER_API_KEY from "./apikey.js";
+
 const container = document.querySelector('.container');
 const resultado = document.querySelector('#resultado');
 const formulario = document.querySelector('#formulario');
@@ -52,7 +54,7 @@ function mostrarError(mensaje) {
 }
 
 function consultarAPI(ciudad, pais) {
-    const appId = '3c1496bdcb4fae9d377e34db0f93d1ab';
+    const appId = OPEN_WEATHER_API_KEY;
 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`;
 
