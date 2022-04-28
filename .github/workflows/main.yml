@@ -30,7 +30,7 @@ jobs:
       - uses: DamianReeves/write-file-action@v1.0
         with:
           # The path to the file to write
-          path: ${GITHUB_WORKSPACE}/js/apikey.js
+          path: ${GITHUB_WORKSPACE}/js/keys.js
           # The contents of the file
           contents: echo "const OPEN_WEATHER_API_KEY = '3c1496bdcb4fae9d377e34db0f93d1ab'; export default OPEN_WEATHER_API_KEY;"
           # The mode of writing to use: `overwrite`, `append`, or `preserve`.
