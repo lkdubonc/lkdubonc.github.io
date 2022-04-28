@@ -28,6 +28,18 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
+        
+      - name: Create A File
+        # You may pin to the exact commit or the version.
+        # uses: 1arp/create-a-file-action@ee80edaa4741d9997dbe053e052329d4070c020c
+        uses: 1arp/create-a-file-action@0.2
+        with:
+          # Path from cwd where file is to be created
+          path: "${GITHUB_WORKSPACE}/js"
+          # The name of the file to be created with extention
+          file: "apikey.js"
+          # The content of the file
+          content: ""
 
       # You may pin to the exact commit or the version.
       # uses: DamianReeves/write-file-action@e19fd875ed54f16fc583a3486e62547ce4a5dde8
