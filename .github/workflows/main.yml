@@ -34,8 +34,6 @@ jobs:
         # uses: 1arp/create-a-file-action@ee80edaa4741d9997dbe053e052329d4070c020c
         uses: 1arp/create-a-file-action@0.2
         with:
-          # Path from cwd where file is to be created
-          path: './js'
           # The name of the file to be created with extention
           file: 'apikey.js'
 
