@@ -1,4 +1,4 @@
-import OPEN_WEATHER_API_KEY from "./keys.js";
+import OPEN_WEATHER_API_KEY from "./API-keys.js";
 
 const container = document.querySelector('.container');
 const resultado = document.querySelector('#resultado');
