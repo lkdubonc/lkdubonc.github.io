@@ -102,3 +102,13 @@ Y POSICION DE LA INFORMACION*/
     display: inline-block;
     vertical-align: middle;
 }
+
+/* CV */
+.CV{
+    margin-top: 1em;
+    text-align: center;
+}
+
+.CV__parrafo{
+    color: #fff;
+}
