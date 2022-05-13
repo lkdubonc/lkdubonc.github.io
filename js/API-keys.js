@@ -1,3 +1,2 @@
-const OPEN_WEATHER_API_KEY = '3c1496bdcb4fae9d377e34db0f93d1ab';
-
-export default OPEN_WEATHER_API_KEY;
+export const OPEN_WEATHER_API_KEY = '3c1496bdcb4fae9d377e34db0f93d1ab';
+export const PIXABAY_API_KEY = '27147290-c97156716b8edfad08f180766';
