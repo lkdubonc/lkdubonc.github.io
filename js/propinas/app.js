@@ -63,7 +63,7 @@ function mostrarSecciones() {
 function obtenerPlatillos() {
     // const url = 'http://localhost:3000/platillos';
 
-    fetch('../../pages/propinas/db.json')
+    fetch('../../db.json')
         .then(respuesta => respuesta.json())
         .then(resultado => mostrarPlatillos(resultado.platillos))
         .catch(error => console.log(error))
