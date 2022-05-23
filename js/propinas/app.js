@@ -61,11 +61,11 @@ function mostrarSecciones() {
 }
 
 function obtenerPlatillos() {
-    // const url = 'http://localhost:3000/platillos';
+    const url = 'https://my-json-server.typicode.com/lkdubonc/lkdubonc.github.io/platillos';
 
-    fetch('../../db.json')
+    fetch(url)
         .then(respuesta => respuesta.json())
-        .then(resultado => mostrarPlatillos(resultado.platillos))
+        .then(resultado => mostrarPlatillos(resultado))
         .catch(error => console.log(error))
 }
 
