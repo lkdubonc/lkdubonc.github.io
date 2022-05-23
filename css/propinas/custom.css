@@ -1,0 +1,30 @@
+body{
+    background: #025D8C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(204, 223, 242), #025D8C);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(204, 223, 242), #025D8C);
+    margin-top: 0%;
+}
+
+.btn-orden{
+    color: #fff;
+    background-color: #025D8C;
+    border-color: #025D8C;
+}
+
+.platillo-row{
+    background-color: #fff;
+    color: black;
+}
+
+.seccion-div{
+    background-color: #0d2235;
+    color: #fff;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.card{
+    color: black;
+}
