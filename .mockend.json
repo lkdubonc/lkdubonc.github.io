@@ -1,16 +1,19 @@
 {
     "Cliente": {
+        "_meta": {
+            "limit" : 10
+        },
         "nombre": {
             "string": {}
         },
         "email": {
-            "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+            "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
         },
         "empresa": {
             "string": {}
         },
         "telefono": {
-            "regexp": "#[0-9]{8}"
+            "regexp": "[0-9]{8}"
         }
     }
 }
