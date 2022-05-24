@@ -1,8 +1,5 @@
 {
     "Cliente": {
-        "_meta": {
-            "limit" : 10
-        },
         "nombre": {
             "string": {}
         },
