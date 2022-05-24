@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM - IndexedDB</title>
+    <link rel="stylesheet" href="../../css/crm/tailwind.min.css">
+    <link rel="stylesheet" href="../../css/crm/lateral.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="min-h-100 bg-gray-200">
+    <div class="md:flex min-h-screen md:align-top">
+        <aside class=" relative md:w-2/5 lg:w-2/5 xl:w-1/5 px-5 py-5" style="background-color: #025D8C">
+            <div class="perfil">
+                <figure class="perfil__circulo">
+                    <img src="../../img/index/perfil.jpg" alt="" class="perfil__foto">
+                </figure>
+                <h1 class="perfil__nombres">Lesly Dubón Cruz</h1>
+            </div>
+            <div class="CV text-center my-2">
+                <p class="CV__parrafo text-white">Curriculum Vitae: </p>
+                <a href="../doc/LeslyDubon_CV.pdf" download="LeslyDubon_CV">
+                    <button type="button" class="bg-white py-1 px-2 my-3">Download</button>
+                </a>
+            </div>
+            <h1 class="uppercase text-white tracking-wide text-2xl  font-bold mt-2">CRM - IndexedDB</h1>
+            <p class="mt-10 text-white">Administra tus Clientes con el CRM - IndexedDB</p>
+            <nav class="mt-8">
+                <a href="index.html"
+                    class="px-3 py-1 text-white block hover:bg-blue-700 hover:text-yellow-400 bg-blue-700">Clientes</a>
+                <a href="nuevo-cliente.html"
+                    class="px-3 py-1 text-white block hover:bg-blue-900 mt-2 hover:text-yellow-400">Nuevo Cliente</a>
+            </nav>
+            <div class="informacion md:absolute inset-x-0 bottom-0 px-5 py-12">
+                <h2 class="informacion__titulo py-2">Desarrollador FrontEnd</h2>
+                <p class="informacion__descripcion py-2">Desarrollador con experiencia básica en el diseño de páginas
+                    web funcionales con acceso a diferentes fuentes de datos.</p>
+                <ul class="habilidades py-2">
+                    <li class="habilidad">Html 5</li>
+                    <li class="habilidad">CSS 3</li>
+                    <li class="habilidad">JavaScript</li>
+                </ul>
+            </div>
+        </aside>
+        <!--sidebar-->
+        <main class="md:w-3/5  xl:w-4/5 px-5 py-10 bg-gray-200">
+            <h2 class="text-3xl font-light text-center">Clientes</h2>
+
+            <div class="flex flex-col mt-10">
+                <div class="py-2 overflow-x-auto">
+                    <div
+                        class="align-middle inline-block min-w-full shadow overflow-hidden sm:rounded-lg border-b border-gray-200">
+                        <table class="min-w-full">
+                            <thead class="bg-gray-100 ">
+                                <tr>
+                                    <th
+                                        class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                        Nombre Cliente
+                                    </th>
+                                    <th
+                                        class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                        Teléfono
+                                    </th>
+                                    <th
+                                        class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                        Empresa
+                                    </th>
+                                    <th
+                                        class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                        Acciones
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="listado-clientes" class="bg-white"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="../../js/crm-jsonserver/app.js" type="module"></script>
+</body>
+
+</html>
