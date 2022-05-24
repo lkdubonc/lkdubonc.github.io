@@ -1,18 +1,16 @@
 {
-    "clientes": [
-        {
-            "nombre": "B",
-            "email": "B@B.COM",
-            "telefono": "2",
-            "empresa": "B",
-            "id": 2
+    "Cliente": {
+        "nombre": {
+            "string": {}
         },
-        {
-            "nombre": "C",
-            "email": "C@D.COM",
-            "telefono": "3",
-            "empresa": "C",
-            "id": 3
+        "email": {
+            "string": {}
+        },
+        "empresa": {
+            "string": {}
+        },
+        "telefono": {
+            "string": {}
         }
-    ]
+    }
 }
