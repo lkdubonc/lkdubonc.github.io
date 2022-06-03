@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+/*MEDIA QUERIES PARA EL ALINEAMIENTO DEL TEXTO EN LA BARRA
+Y POSICION DE LA INFORMACION*/
+
+@media screen and (max-width: 350px) and (min-height: 571px) {
+    .informacion {
+        position: absolute;
+        bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 350px) and (max-height: 571px) {
+
+    .lateral {
+        text-align: center;
+    }
+}
+
+@media screen and (max-height: 570px) {
+
+    .lateral {
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 780px) {
+    .lateral {
+        text-align: center;
+    }
+}
+
+/* Barra lateral */
+
+.lateral {
+    background-color: #025D8C;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Información */
+
+.informacion {
+    color: #fff;
+    padding-right: 0.5em;
+}
+
+.informacion__titulo {
+    font-size: 1.125em;
+}
+
+/* Habilidad */
+
+.habilidades {
+    padding: 0;
+}
+
+.habilidad {
+    background-color: #336C99;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+}
+
+/* Perfil */
+
+.perfil__circulo {
+    border-radius: 50%;
+    height: 3.25em;
+    overflow: hidden;
+    margin: 0;
+    width: 3.25em;
+}
+
+.perfil__foto {
+    width: 100%;
+}
+
+.perfil__nombres {
+    color: #fff;
+    font-size: 1.25em;
+    margin-left: 0.5em;
+    width: 60%;
+}
+
+.perfil__nombres,
+.perfil__circulo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* CV */
+.CV{
+    margin-top: 1em;
+    text-align: center;
+}
+
+.CV__parrafo{
+    color: #fff;
+}

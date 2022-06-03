@@ -1,2 +1,4 @@
 .vscode
 js/keys-secret.js
+node_modules
+variables.env
